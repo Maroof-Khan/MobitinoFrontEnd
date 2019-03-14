@@ -1,0 +1,37 @@
+body{
+	background-color: #f4f4f4;
+}
+h5{
+	margin-left: 55px;
+}
+h6{
+	margin-left: 14px;
+}
+p{
+	margin-left: 14px;
+}
+hr {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    border: 2;
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+.left {
+  margin-left: 10px;
+}
+.cat{
+	padding-bottom: 100px;
+	background-color: #f4f4f4;
+}
+.lft{
+	padding-bottom: 0px; /*/565*/
+	background-color: white;
+	color: black;
+}
+.rt{
+	background-color: white;
+}
+.pmt{
+	background-color: #f4f4f4;
+	/*margin-left: 16px;*/
+}
