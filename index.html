@@ -2,110 +2,42 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
-<div class="container">
+<div class="container ">
   	<div class="row">
-	  	<div class="col-md-4 col-sm-6 col-12 col-lg-4 cat">
-	  	  <h5>Android Mobile-2</h5>
-	  	  <div class="lft mx-3 border ">
-	  	  	 <div class="py-2 bg-primary"></div>
+	  	<div class="col border" style="background-color: white">
+	  	  	 <div class="row py-3  bg-primary"></div>
 	  	  	 <div class="py-3 h6"><p>LOGO</p></div>
-	  	  	 <div class="py-1 pmt">Enter details before making payments</div>
-             <div class="py-4 "><p>Full Name</p></div><hr>
-             <div class="py-5 "><p>Mobile Number Email Id</p></div><hr>
-             <div class="py-5 "><p>Amount</p></div><hr>
-             <div class="py-5 "><p>Payment Remarks(Optional)</p></div><hr>
+	  	  	 <div class="py-1 pmt row"><p>Enter details before making payments</p></div>
+             <div class="py-2 ">
+             	<h6>Full Name</h6>
+             	<input style="border:none" type="text" name="clock" size="24" value="...">
+             </div><hr>
+             <div class="row py-3 ">
+             	<div class="col-md-6">
+             	<label class="radio-inline ml-1"><input type="radio" name="optradio" checked>Mobile Number</label>
+             	</div>
+             	<div class="col-md-6">
+                <label class="radio-inline pr-3 ml-4"><input  type="radio" name="optradio">EmailId</label>
+                </div>
+             </div><hr>
+             <div class="py-2 ">
+             	<h6>Amount</h6>
+             	<input style="border:none" type="text" name="clock" size="24" value="...">
+             </div><hr>
+             <div class="py-2 ">
+             	<h6>Payment Remarks (Optional)</h6>
+             	<input style="border:none" type="text" name="clock" size="24" value="...">
+             </div><hr>
              <div class="py-4 "><p>LoGo</p></div>
-             <button class="py-2 bg-primary " type="button" style="width: 100%"> CONTINUE</button>   
-	  	  </div>
-	  	</div>
-	  	<div class="col-md-4 col-sm-6 col-12 col-lg-4 cat">
-	  	  <h5>Android Mobile-3</h5>
-           <div class="lft mx-3 border">
-           	 <div class="py-2 bg-primary"></div>
-           	 <div class="py-3 h6"><p>LOGO</p></div>
-             <div class="py-1 pmt">Verfying information & confirm to pay</div>
-             <div class="py-2 "><h6>Transaction Refrence Number</h6><p>$111522</p></div>
-             <div class="py-2 "><h6>Pay to</h6><p>Deep Sharma</p></div>
-             <div class="py-2 "><h6>Mobile Number/Invoice No</h6><p>MN:91-7002208122</p></div>
-             <div class="py-2 "><h6>Amount</h6><p><i style="font-size:14px" class="fa">&#xf156;</i>100</p></div>
-             <div class="py-2 "><h6>Payment Remarks/Particulars (Optional)</h6><p>Test</p></div>
-             <div class="py-2 "><p>LoGo</p></div>
-             <button class="py-2 bg-primary " type="button" style="width: 100%"> CONTINUE</button> 
-           </div>
-	  	</div>
-	  	<div class="col-md-4 col-sm-6 col-12 col-lg-4 cat">
-	  	  <h5>Android Mobile-4</h5>
-	  	  <div class="rt mx-3 border">
-	  		 <div class="py-2 bg-primary"></div>
-           	 <div class="py-3 h6"><p>LOGO</p></div>
-             <div class="py-1 pmt"><h6>Amount Payble <i style="font-size:14px" class="fa ml-5">&#xf156;</i> 100.00</h6>
+             <div class="row">
+             <a href="./htmlfile/android2.html" class="btn py-3 bg-primary justify-content-between"  style="width: 100% ;color:white"> CONTINUE</a> 
              </div>
-             <div class="py-2 "><p>Select Payment Method</p><hr></div>
-             <div class="py-3 row">
-	             <div class="col-sm-4 ml-2">
-	             	<i class="fa fa-cc-visa" style="height: 40px; font-size:55px;"></i>  
-	             </div>
-	             <div class="col ml-4"><h6>SBI Debit Card</h6>5512**** **** 5263</div>
-	             <!-- <div class="col-sm-3"></div>                -->
-            </div>
-            <div class="row py-3">	             
-	             <div class="col-sm-7 "><h6>Enter CV Number</h6><p>random text</p></div>
-	             <div class="col ml-3 mr-3 border"><a style="font-size:21px">CW :<i class="fa fa-cc-discover"></i>
-	             </div><hr>              
-            </div><hr>
-            <div class="py-4 row">
-	             <div class="col-sm-4 ml-2">
-	             	<i class="fa fa-square-o" style="font-size:60px;"></i>  
-	             </div>
-	             <div class="col ml-8 pl-0"><h6>Coinner Cash</h6 >coming soon</div>
-            </div><hr>
-            <div class="py-4 row">
-	             <div class="col-sm-4 ml-2">
-	             	<i class="fa fa-credit-card" style="font-size:50px;"></i> 
-	             </div>
-	             <div class="col ml-8 pl-0"><h6>BHIM UPI</h6></div>
-            </div><hr>
-            <div class="py-4 row">
-	             <div class="col-sm-4 ml-2">
-	             	<i class="fa fa-cc-mastercard" style="font-size:50px"></i> 
-	             </div>
-	             <div class="col ml-8 pl-0"><h6>Debit + ATM/Prepaids Cards</h6></div>
-            </div><hr>
-            <div class="py-4 row">
-	             <div class="col-sm-4 ml-2">
-	             	<i class="fa fa-square-o" style="font-size:60px;"></i> 
-	             </div>
-	             <div class="col ml-8 pl-0"><h6>Credit Card</h6></div>
-            </div><hr>
-            <div class="py-4 row">
-	             <div class="col-sm-4 ml-2">
-	             	<i class="fa fa-square-o" style="font-size:60px;"></i> 
-	             </div>
-	             <div class="col ml-8 pl-0"><h6>Net Banking</h6></div>
-            </div><hr>
-            <div class="py-4 row">
-	             <div class="col-sm-4 ml-2">
-	             	<i class="fa fa-square-o" style="font-size:60px;"></i> 
-	             </div>
-	             <div class="col ml-8 pl-0"><h6>Mobile/E - Wallet</h6></div>
-            </div><hr>
-            <div class="py-4 row">
-	             <div class="col-sm-4 ml-2">
-	             	<i class="fa fa-square-o" style="font-size:60px;"></i> 
-	             </div>
-	             <div class="col ml-8 pl-0"><h6>EMI & Pay Later</h6></div>
-            </div><hr>
-            <div class="py-4 "><p>LoGo</p></div>
-             <button class="py-2 bg-primary " type="button" style="width: 100%"> CONTINUE</button>
-	  	  </div>	
-	  	</div> 	 
-  </div>
+	  	</div>  	 	 
+    </div>
 </div>
 </body>
 </html>
