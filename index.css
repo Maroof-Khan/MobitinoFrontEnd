@@ -1,13 +1,20 @@
 body{
 	background-color: #f4f4f4;
 }
+.rdo{
+        margin-left: 12.5rem
+}
 .container {
-	margin-top: 0px;
-	margin-bottom: 0px;
-    background-color: #f4f4f4;
+    width: 100%;
+    /*padding-right: 0px;
+    padding-left: 0px;*/
+
+    /*background-color: red;*/
+    margin-right: auto;
+    margin-left: auto;
 }
 p{
-  margin-left: 15px;
+  margin-left: 18px;
 }
 .pmt{
 	background-color: #f4f4f4;
